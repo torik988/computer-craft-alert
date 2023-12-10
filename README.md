@@ -11,6 +11,16 @@ Before using this script, make sure you have the following:
 - ComputerCraft or CC: Tweaked installed in your Minecraft world.
 - A Discord webhook URL for the channel where you want to receive notifications.
 
+## GPS Configuration
+
+The script includes a function to obtain and display GPS coordinates in the Discord message.
+
+To use the GPS functionality, follow these steps:
+
+1. Set up three computers (computers A, B, and C) with an ender-modem attached to each.
+2. Arrange them as shown in the [image](https://github.com/torik988/computer-craft-alert/assets/136936205/bc533f88-0fa1-40f1-aa72-b0bbc49c87ea).
+   Upload the GPS/startup.lua script to each computer and specify the coordinates of each computer.
+
 ## Setup
 
 1. Open the Lua script in your ComputerCraft computer.
